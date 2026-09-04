@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Control Center — Swapnil Gaonkar | Unified Engineering &amp; Design Suite</title>
+  <meta name="description" content="Central Hub and Single Point of Entry for Swapnil Gaonkar's Production Portfolios, Enterprise HRMS, Clientele B2B Directory, and Project Management Systems.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%230b0f19'/><path d='M10 8h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H10a2 2 0 0 1-2-2V10a2 2 0 0 1 2-2z' stroke='%2338bdf8' stroke-width='2' fill='none'/><circle cx='16' cy='16' r='4' fill='%236366f1'/></svg>">
+</head>
+<body>
+  <!-- Ambient Background Glows -->
+  <div class="glow-backdrop">
+    <div class="glow-orb glow-indigo"></div>
+    <div class="glow-orb glow-cyan"></div>
+    <div class="glow-orb glow-violet"></div>
+  </div>
+
+  <div class="app-shell">
+    <!-- Top Header / Bar -->
+    <header class="master-header">
+      <div class="header-left">
+        <div class="logo-mark">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="3" y="3" width="7" height="7"></rect>
+            <rect x="14" y="3" width="7" height="7"></rect>
+            <rect x="14" y="14" width="7" height="7"></rect>
+            <rect x="3" y="14" width="7" height="7"></rect>
+          </svg>
+        </div>
+        <div class="header-brand">
+          <span class="brand-title">Control Center</span>
+          <span class="brand-sub">Swapnil Gaonkar &bull; Systems Architecture</span>
+        </div>
+      </div>
+
+      <div class="header-center">
+        <div class="env-badge">
+          <span class="pulse-indicator"></span>
+          <span class="env-text">Local XAMPP Active &bull; MySQL 3306</span>
+        </div>
+      </div>
+
+      <div class="header-right">
+        <button id="btn-architecture" class="btn btn-ghost" onclick="openModal('arch-modal')">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="16 18 22 12 16 6"></polyline>
+            <polyline points="8 6 2 12 8 18"></polyline>
+          </svg>
+          Architecture &amp; Specs
+        </button>
+        <a href="https://github.com/swapnil0607" target="_blank" rel="noopener" class="btn btn-primary">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+          </svg>
+          GitHub Profile
+        </a>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-container">
+      <!-- Hero Section -->
+      <section class="hero-section">
+        <div class="hero-tag">
+          <span class="tag-glow"></span>
+          <span class="tag-content">Unified Master Launchpad &bull; 2026 Production Edition</span>
+        </div>
+        <h1 class="hero-title">
+          Single Point of Entry to <span class="gradient-text">Full-Stack Ecosystems</span>
+        </h1>
+        <p class="hero-description">
+          A centralized, sanitized suite comprising a premier design portfolio, an enterprise HR management system, a B2B clientele directory, and an agile project/timesheet platform. Designed for live recruiter demos and modular GitHub releases.
+        </p>
+
+        <!-- Quick Telemetry Strip -->
+        <div class="telemetry-bar">
+          <div class="telemetry-item">
+            <span class="telemetry-val">4 Systems</span>
+            <span class="telemetry-lbl">Full-Stack &amp; Creative</span>
+          </div>
+          <div class="telemetry-divider"></div>
+          <div class="telemetry-item">
+            <span class="telemetry-val">Zero-Leakage</span>
+            <span class="telemetry-lbl">Fictionalized Dummy Data</span>
+          </div>
+          <div class="telemetry-divider"></div>
+          <div class="telemetry-item">
+            <span class="telemetry-val">Unified Pass</span>
+            <span class="telemetry-lbl">One-Click Demo Access</span>
+          </div>
+          <div class="telemetry-divider"></div>
+          <div class="telemetry-item">
+            <span class="telemetry-val">Dual Mode</span>
+            <span class="telemetry-lbl">Localhost &amp; Cloud Ready</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Global Credentials Quick-Reference Banner -->
+      <section class="quick-credentials-strip">
+        <div class="credentials-summary">
+          <div class="cred-lead">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+              <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+            </svg>
+            <span>Universal Demo Login Pass:</span>
+            <code>Demo@2026!</code>
+            <button class="copy-pill" onclick="copyText('Demo@2026!', 'Demo Password copied to clipboard!')">Copy Password</button>
+          </div>
+          <div class="cred-roles">
+            <span class="role-chip" onclick="copyText('admin@demo.com', 'Admin email copied!')">
+              <span class="role-dot admin"></span>Admin: <strong>admin@demo.com</strong>
+            </span>
+            <span class="role-chip" onclick="copyText('manager@demo.com', 'Manager email copied!')">
+              <span class="role-dot manager"></span>Manager: <strong>manager@demo.com</strong>
+            </span>
+            <span class="role-chip" onclick="copyText('employee@demo.com', 'Employee email copied!')">
+              <span class="role-dot employee"></span>Employee: <strong>employee@demo.com</strong>
+            </span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Bento Grid: 4 Core Projects -->
+      <section class="bento-grid">
+        <!-- Card 1: Portfolio Webpage -->
+        <article class="bento-card card-portfolio" id="card-portfolio">
+          <div class="card-glow"></div>
+          <div class="card-header">
+            <div class="card-badge badge-cyan">Flagship Platform</div>
+            <div class="card-status status-check" data-endpoint="/portfolio/">
+              <span class="status-dot"></span>
+              <span class="status-label">Checking...</span>
+            </div>
+          </div>
+
+          <div class="card-body">
+            <div class="card-icon-wrapper icon-cyan">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="2" y1="12" x2="22" y2="12"></line>
+                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+              </svg>
+            </div>
+            <h2 class="card-title">Portfolio 2026</h2>
+            <p class="card-subtitle">Visual Identity &bull; UI/UX Engineering &bull; Interactive Widgets</p>
+            <p class="card-description">
+              Swapnil's premier interactive web presence. Engineered with vanilla ES6+, hardware-accelerated CSS glassmorphism, responsive navigation architecture, and custom generative graphics.
+            </p>
+
+            <!-- Highlights -->
+            <ul class="feature-list">
+              <li>Zero-dependency high-speed bundle (sub-50ms paint)</li>
+              <li>Responsive mobile navigation drawer &amp; backdrop blur</li>
+              <li>Interactive case study carousel &amp; design tokens</li>
+            </ul>
+
+            <!-- Tech Badges -->
+            <div class="tech-stack-row">
+              <span class="tech-tag">HTML5 / Modern CSS3</span>
+              <span class="tech-tag">Vanilla ES6+</span>
+              <span class="tech-tag">Canvas API</span>
+              <span class="tech-tag">GitHub Pages</span>
+            </div>
+          </div>
+
+          <div class="card-footer">
+            <a href="/portfolio/" class="btn btn-launch btn-cyan" target="_blank">
+              <span>Launch Localhost</span>
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                <polyline points="15 3 21 3 21 9"></polyline>
+                <line x1="10" y1="14" x2="21" y2="3"></line>
+              </svg>
+            </a>
+            <a href="https://swapnilgaonkar.com" class="btn btn-ghost-sm" target="_blank" rel="noopener">
+              Live Production &rarr;
+            </a>
+          </div>
+        </article>
+
+        <!-- Card 2: Enterprise HRMS -->
+        <article class="bento-card card-hrms" id="card-hrms">
+          <div class="card-glow"></div>
+          <div class="card-header">
+            <div class="card-badge badge-indigo">Full-Stack PHP / MySQL</div>
+            <div class="card-status status-check" data-endpoint="/hrms/">
+              <span class="status-dot"></span>
+              <span class="status-label">Checking...</span>
+            </div>
+          </div>
+
+          <div class="card-body">
+            <div class="card-icon-wrapper icon-indigo">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+              </svg>
+            </div>
+            <h2 class="card-title">HRMS Portal</h2>
+            <p class="card-subtitle">Enterprise Leave &amp; Attendance Management System</p>
+            <p class="card-description">
+              Multi-tiered human resource platform supporting real-time leave entitlement tracking, holiday calendars, WFH applications, automated balance deductions, and multi-tier approval flows.
+            </p>
+
+            <!-- Role Selector & Quick Copy -->
+            <div class="role-selector-block">
+              <span class="role-block-title">Instant Role Credentials (Password: <code>Demo@2026!</code>)</span>
+              <div class="role-buttons">
+                <button class="role-btn" onclick="copyCreds('admin@demo.com', 'Demo@2026!', 'HRMS Admin credentials copied!')">
+                  <span class="role-tag admin">Admin</span>
+                  <span class="role-email">admin@demo.com</span>
+                  <span class="copy-icon">&plus;</span>
+                </button>
+                <button class="role-btn" onclick="copyCreds('manager@demo.com', 'Demo@2026!', 'HRMS Manager credentials copied!')">
+                  <span class="role-tag manager">Manager</span>
+                  <span class="role-email">manager@demo.com</span>
+                  <span class="copy-icon">&plus;</span>
+                </button>
+                <button class="role-btn" onclick="copyCreds('employee@demo.com', 'Demo@2026!', 'HRMS Employee credentials copied!')">
+                  <span class="role-tag employee">Employee</span>
+                  <span class="role-email">employee@demo.com</span>
+                  <span class="copy-icon">&plus;</span>
+                </button>
+              </div>
+            </div>
+
+            <!-- Tech Badges -->
+            <div class="tech-stack-row">
+              <span class="tech-tag">PHP 8.2</span>
+              <span class="tech-tag">MySQL (demo_hrms)</span>
+              <span class="tech-tag">Bcrypt Security</span>
+              <span class="tech-tag">Bootstrap 5</span>
+              <span class="tech-tag">8 Seed Tables</span>
+            </div>
+          </div>
+
+          <div class="card-footer">
+            <a href="/hrms/" class="btn btn-launch btn-indigo" target="_blank">
+              <span>Launch HRMS Portal</span>
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                <polyline points="15 3 21 3 21 9"></polyline>
+                <line x1="10" y1="14" x2="21" y2="3"></line>
+              </svg>
+            </a>
+            <button class="btn btn-ghost-sm" onclick="showSchema('hrms')">
+              View Schema &rarr;
+            </button>
+          </div>
+        </article>
+
+        <!-- Card 3: Clientele Online -->
+        <article class="bento-card card-clientele" id="card-clientele">
+          <div class="card-glow"></div>
+          <div class="card-header">
+            <div class="card-badge badge-emerald">B2B Directory &amp; Admin</div>
+            <div class="card-status status-check" data-endpoint="/clientele/">
+              <span class="status-dot"></span>
+              <span class="status-label">Checking...</span>
+            </div>
+          </div>
+
+          <div class="card-body">
+            <div class="card-icon-wrapper icon-emerald">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75">
+                <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+              </svg>
+            </div>
+            <h2 class="card-title">Clientele Online</h2>
+            <p class="card-subtitle">Enterprise B2B Client Directory &amp; Showcase</p>
+            <p class="card-description">
+              Curated client brand catalog and media portal featuring 8 industry verticals (BFSI, Auto, Health, Retail, Tech), responsive grid presentation, and an administrative management suite.
+            </p>
+
+            <!-- Role Selector & Quick Copy -->
+            <div class="role-selector-block">
+              <span class="role-block-title">Admin Access (Password: <code>Demo@2026!</code>)</span>
+              <div class="role-buttons">
+                <button class="role-btn" onclick="copyCreds('admin', 'Demo@2026!', 'Clientele Admin credentials copied!')">
+                  <span class="role-tag admin">Super Admin</span>
+                  <span class="role-email">admin</span>
+                  <span class="copy-icon">&plus;</span>
+                </button>
+                <button class="role-btn" onclick="copyCreds('swapnil', 'Demo@2026!', 'Clientele Swapnil credentials copied!')">
+                  <span class="role-tag manager">Executive</span>
+                  <span class="role-email">swapnil</span>
+                  <span class="copy-icon">&plus;</span>
+                </button>
+              </div>
+            </div>
+
+            <!-- Tech Badges -->
+            <div class="tech-stack-row">
+              <span class="tech-tag">PHP Architecture</span>
+              <span class="tech-tag">MySQL (demo_clientele)</span>
+              <span class="tech-tag">Admin Panel</span>
+              <span class="tech-tag">Industry Filters</span>
+              <span class="tech-tag">21 Demo Brands</span>
+            </div>
+          </div>
+
+          <div class="card-footer">
+            <div class="dual-actions">
+              <a href="/clientele/" class="btn btn-launch btn-emerald" target="_blank">
+                <span>Public Showcase</span>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </a>
+              <a href="/clientele/admin/login.php" class="btn btn-ghost-sm" target="_blank">
+                Admin Panel &rarr;
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 4: PMS System -->
+        <article class="bento-card card-pms" id="card-pms">
+          <div class="card-glow"></div>
+          <div class="card-header">
+            <div class="card-badge badge-amber">Enterprise MVC Architecture</div>
+            <div class="card-status status-check" data-endpoint="/pms/">
+              <span class="status-dot"></span>
+              <span class="status-label">Checking...</span>
+            </div>
+          </div>
+
+          <div class="card-body">
+            <div class="card-icon-wrapper icon-amber">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75">
+                <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                <line x1="12" y1="22.08" x2="12" y2="12"></line>
+              </svg>
+            </div>
+            <h2 class="card-title">PMS Portal</h2>
+            <p class="card-subtitle">Project Management, Sprint Tasks &amp; Timesheets</p>
+            <p class="card-description">
+              Robust MVC project delivery platform supporting client portfolios, multi-phase sprint tracking, interactive Kanban task states, team timesheet logging, and executive XLSX report generation.
+            </p>
+
+            <!-- Role Selector & Quick Copy -->
+            <div class="role-selector-block">
+              <span class="role-block-title">Demo Roles (Password: <code>Demo@2026!</code>)</span>
+              <div class="role-buttons">
+                <button class="role-btn" onclick="copyCreds('admin@pms.demo', 'Demo@2026!', 'PMS Super Admin credentials copied!')">
+                  <span class="role-tag admin">Super Admin</span>
+                  <span class="role-email">admin@pms.demo</span>
+                  <span class="copy-icon">&plus;</span>
+                </button>
+                <button class="role-btn" onclick="copyCreds('pm@pms.demo', 'Demo@2026!', 'PMS Project Manager credentials copied!')">
+                  <span class="role-tag manager">Project Lead</span>
+                  <span class="role-email">pm@pms.demo</span>
+                  <span class="copy-icon">&plus;</span>
+                </button>
+                <button class="role-btn" onclick="copyCreds('dev@pms.demo', 'Demo@2026!', 'PMS Designer credentials copied!')">
+                  <span class="role-tag employee">Developer</span>
+                  <span class="role-email">dev@pms.demo</span>
+                  <span class="copy-icon">&plus;</span>
+                </button>
+              </div>
+            </div>
+
+            <!-- Tech Badges -->
+            <div class="tech-stack-row">
+              <span class="tech-tag">PHP MVC</span>
+              <span class="tech-tag">MySQL (demo_pms)</span>
+              <span class="tech-tag">Kanban Board</span>
+              <span class="tech-tag">Timesheet Audit</span>
+              <span class="tech-tag">Role ACL</span>
+            </div>
+          </div>
+
+          <div class="card-footer">
+            <a href="/pms/" class="btn btn-launch btn-amber" target="_blank">
+              <span>Launch PMS Portal</span>
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                <polyline points="15 3 21 3 21 9"></polyline>
+                <line x1="10" y1="14" x2="21" y2="3"></line>
+              </svg>
+            </a>
+            <button class="btn btn-ghost-sm" onclick="showSchema('pms')">
+              View Architecture &rarr;
+            </button>
+          </div>
+        </article>
+      </section>
+
+      <!-- Architecture & Security Matrix Section -->
+      <section class="system-specs-section">
+        <div class="section-badge">ENGINEERING PILLARS</div>
+        <h2 class="section-title">Clean Separation &bull; Enterprise Reliability</h2>
+        
+        <div class="specs-grid">
+          <div class="spec-card">
+            <div class="spec-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              </svg>
+            </div>
+            <h3>100% Confidentiality &amp; Data Sanitization</h3>
+            <p>
+              Original production dumps containing live corporate clients, payroll numbers, and personal communications are isolated in <code>.safety_backup/</code>. All live databases run on deterministic, fictitious datasets.
+            </p>
+          </div>
+
+          <div class="spec-card">
+            <div class="spec-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#6366f1" stroke-width="2">
+                <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
+                <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
+                <line x1="6" y1="6" x2="6.01" y2="6"></line>
+                <line x1="6" y1="18" x2="6.01" y2="18"></line>
+              </svg>
+            </div>
+            <h3>Decoupled XAMPP Junction Routing</h3>
+            <p>
+              Projects live inside version-controlled repositories in <code>D:\swapnil\Control Center\</code> and are linked into <code>C:\xampp\htdocs\</code> via NTFS directory junctions, allowing seamless local serving without file duplication.
+            </p>
+          </div>
+
+          <div class="spec-card">
+            <div class="spec-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2">
+                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+              </svg>
+            </div>
+            <h3>Independent Git Repository Strategy</h3>
+            <p>
+              Each system possesses its own standalone repository structure (with clean commit trees, dedicated <code>.gitignore</code>, and recruiter documentation) so hiring managers can inspect individual codebases independently.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Master Footer -->
+    <footer class="master-footer">
+      <div class="footer-inner">
+        <p class="footer-copy">&copy; 2026 Swapnil Gaonkar. Central Control Center &bull; All projects configured for local demonstrations and independent GitHub repositories.</p>
+        <div class="footer-links">
+          <a href="/portfolio/">Portfolio</a>
+          <span class="bullet">&bull;</span>
+          <a href="/hrms/">HRMS</a>
+          <span class="bullet">&bull;</span>
+          <a href="/clientele/">Clientele</a>
+          <span class="bullet">&bull;</span>
+          <a href="/pms/">PMS</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Architecture / Schema Modal -->
+  <div id="arch-modal" class="modal-overlay" onclick="closeModal('arch-modal')">
+    <div class="modal-box" onclick="event.stopPropagation()">
+      <div class="modal-header">
+        <div class="modal-title-group">
+          <h3 id="modal-title">System Architecture &amp; Database Specifications</h3>
+          <span class="modal-subtitle">Schema details, security parameters, and directory topology</span>
+        </div>
+        <button class="modal-close" onclick="closeModal('arch-modal')">&times;</button>
+      </div>
+      <div class="modal-body" id="modal-body">
+        <div class="modal-tabs">
+          <button class="tab-btn active" onclick="switchTab('tab-general')">Overview</button>
+          <button class="tab-btn" onclick="switchTab('tab-hrms')">HRMS Schema</button>
+          <button class="tab-btn" onclick="switchTab('tab-clientele')">Clientele Schema</button>
+          <button class="tab-btn" onclick="switchTab('tab-pms')">PMS Schema</button>
+        </div>
+
+        <div id="tab-general" class="tab-pane active">
+          <h4>Multi-Project Topology</h4>
+          <pre><code>D:\swapnil\Control Center\
+├── Protfolio-webpage/      &rarr; GitHub Pages &amp; Localhost (/portfolio/)
+├── HRMS/                   &rarr; Full-Stack PHP (/hrms/) &bull; DB: demo_hrms
+├── Clientele-online/       &rarr; B2B Directory (/clientele/) &bull; DB: demo_clientele
+├── PMS/                    &rarr; Enterprise MVC (/pms/) &bull; DB: demo_pms
+└── Control-Center-Hub/     &rarr; Master Entry Point (/control-center/)</code></pre>
+
+          <h4>Security &amp; Sanitization Strategy</h4>
+          <ul>
+            <li><strong>Bcrypt Password Hashing:</strong> Unified across all users using <code>PASSWORD_BCRYPT</code> (Cost 10).</li>
+            <li><strong>Zero Sensitive Data:</strong> Real employee payroll, personal phone numbers, and client contracts safely archived in <code>.safety_backup/</code>.</li>
+            <li><strong>Smart DB Connectors:</strong> Automatically detect <code>localhost</code> (root with no password) with seamless fallback to remote server credentials.</li>
+          </ul>
+        </div>
+
+        <div id="tab-hrms" class="tab-pane">
+          <h4>HRMS Schema (`demo_hrms`)</h4>
+          <p>8 relational tables supporting leave entitlement, attendance, approval hierarchies, and company calendars:</p>
+          <ul>
+            <li><code>users</code> &mdash; User credentials, roles (Admin, Manager, Employee), designations, reporting lines.</li>
+            <li><code>leave_types</code> &mdash; Sick Leave (SL), Casual Leave (CL), Paid Privilege Leave (PL), WFH.</li>
+            <li><code>leave_balances</code> &mdash; Total, utilized, and remaining quota balances.</li>
+            <li><code>leave_applications</code> &mdash; From/to dates, reason, status (Pending, Approved, Rejected), manager remarks.</li>
+            <li><code>official_holidays</code> &mdash; Calendar holidays for 2026.</li>
+            <li><code>optional_holidays</code> &mdash; Optional festival holidays.</li>
+            <li><code>user_optional_holidays</code> &mdash; Employee-selected optional days.</li>
+            <li><code>attendance_logs</code> &mdash; Daily check-in timestamps and punch audit records.</li>
+          </ul>
+        </div>
+
+        <div id="tab-clientele" class="tab-pane">
+          <h4>Clientele Schema (`demo_clientele`)</h4>
+          <p>Structured category and brand catalog system with audit logging:</p>
+          <ul>
+            <li><code>clientele_users</code> &mdash; Admin portal authentication and access levels.</li>
+            <li><code>categories</code> &mdash; Industry verticals (Automotive, BFSI, Healthcare, Technology, Retail, etc.).</li>
+            <li><code>clients</code> &mdash; Brand names, industry category mapping, website URLs, logo paths, display ordering.</li>
+            <li><code>audit_logs</code> &mdash; Activity audit log of client updates and admin operations.</li>
+          </ul>
+        </div>
+
+        <div id="tab-pms" class="tab-pane">
+          <h4>PMS Schema (`demo_pms`)</h4>
+          <p>Full MVC project delivery and team timesheet schema with 12 tables:</p>
+          <ul>
+            <li><code>users</code> &mdash; Authentication, permissions, and roles (Admin, Project Manager, Member).</li>
+            <li><code>clients</code> &mdash; Fictional enterprise client accounts.</li>
+            <li><code>projects</code> &mdash; Multi-client projects, budgets, deadlines, and project health metrics.</li>
+            <li><code>phases</code> &mdash; Project milestone phases (Discovery, Wireframes, UI Design, QA, Delivery).</li>
+            <li><code>tasks</code> &mdash; Granular deliverable items, priorities, due dates, assignee IDs, and Kanban status.</li>
+            <li><code>work_logs</code> &mdash; Hourly work logs, task links, timesheet notes, and approval records.</li>
+            <li><code>custom_fields</code> &mdash; Extensible metadata definitions.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Global Toast Notification -->
+  <div id="toast" class="toast">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2.5">
+      <polyline points="20 6 9 17 4 12"></polyline>
+    </svg>
+    <span id="toast-text">Copied to clipboard!</span>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
