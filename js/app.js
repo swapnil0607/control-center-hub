@@ -40,7 +40,7 @@ function adaptEnvironment() {
     // 1. Update Header Badges
     const envBadgeText = document.querySelector('.env-badge .env-text');
     if (envBadgeText) {
-      envBadgeText.textContent = 'GitHub Pages Cloud • Interactive Ecosystem';
+      envBadgeText.textContent = 'GitHub Pages Cloud • Architecture & Repos';
     }
     const mobileStatusPill = document.querySelector('.mobile-status-pill');
     if (mobileStatusPill) {
@@ -53,7 +53,7 @@ function adaptEnvironment() {
       portfolioLaunch.href = 'https://swapnil0607.github.io/portfolio-2026/';
       portfolioLaunch.target = '_blank';
       const label = portfolioLaunch.querySelector('span');
-      if (label) label.textContent = 'Launch Portfolio';
+      if (label) label.textContent = 'Launch Live Portfolio';
     }
     const portfolioStatus = document.querySelector('#card-portfolio .status-label');
     if (portfolioStatus) {
@@ -62,67 +62,67 @@ function adaptEnvironment() {
       if (statusWrap) statusWrap.classList.add('online');
     }
 
-    // 3. Card 2: HRMS (Live interactive portal on GitHub Pages)
+    // 3. Card 2: HRMS (Full-stack PHP/MySQL repository)
     const hrmsLaunch = document.querySelector('#card-hrms .btn-launch');
     if (hrmsLaunch) {
-      hrmsLaunch.href = 'https://swapnil0607.github.io/hrms-portal/';
+      hrmsLaunch.href = 'https://github.com/swapnil0607/hrms-portal';
       hrmsLaunch.target = '_blank';
       const label = hrmsLaunch.querySelector('span');
-      if (label) label.textContent = 'Launch HRMS Portal';
+      if (label) label.textContent = 'View PHP Repository';
     }
     const hrmsStatus = document.querySelector('#card-hrms .status-label');
     if (hrmsStatus) {
-      hrmsStatus.textContent = 'Live Web App';
+      hrmsStatus.textContent = 'Full-Stack PHP / MySQL';
       const statusWrap = document.querySelector('#card-hrms .card-status');
       if (statusWrap) statusWrap.classList.add('online');
     }
 
-    // 4. Card 3: Clientele (Live interactive catalog on GitHub Pages)
+    // 4. Card 3: Clientele (Full-stack PHP/MySQL repository)
     const clienteleLaunch = document.querySelector('#card-clientele .btn-launch');
     if (clienteleLaunch) {
-      clienteleLaunch.href = 'https://swapnil0607.github.io/clientele-system/';
+      clienteleLaunch.href = 'https://github.com/swapnil0607/clientele-system';
       clienteleLaunch.target = '_blank';
       const label = clienteleLaunch.querySelector('span');
-      if (label) label.textContent = 'Launch Clientele';
+      if (label) label.textContent = 'View PHP Repository';
     }
     const clienteleAdmin = document.querySelector('#card-clientele .dual-actions .btn-ghost-sm');
     if (clienteleAdmin) {
-      clienteleAdmin.href = 'https://swapnil0607.github.io/clientele-system/';
+      clienteleAdmin.href = 'https://github.com/swapnil0607/clientele-system#admin-demo-access';
       clienteleAdmin.target = '_blank';
-      clienteleAdmin.textContent = 'Interactive Catalog \u2192';
+      clienteleAdmin.textContent = 'Admin Repo Specs \u2192';
     }
     const clienteleStatus = document.querySelector('#card-clientele .status-label');
     if (clienteleStatus) {
-      clienteleStatus.textContent = 'Live Web App';
+      clienteleStatus.textContent = 'B2B PHP Catalog';
       const statusWrap = document.querySelector('#card-clientele .card-status');
       if (statusWrap) statusWrap.classList.add('online');
     }
 
-    // 5. Card 4: PMS (Live interactive project delivery portal on GitHub Pages)
+    // 5. Card 4: PMS (Full-stack PHP MVC repository)
     const pmsLaunch = document.querySelector('#card-pms .btn-launch');
     if (pmsLaunch) {
-      pmsLaunch.href = 'https://swapnil0607.github.io/pms-portal/';
+      pmsLaunch.href = 'https://github.com/swapnil0607/pms-portal';
       pmsLaunch.target = '_blank';
       const label = pmsLaunch.querySelector('span');
-      if (label) label.textContent = 'Launch PMS Portal';
+      if (label) label.textContent = 'View PHP Repository';
     }
     const pmsStatus = document.querySelector('#card-pms .status-label');
     if (pmsStatus) {
-      pmsStatus.textContent = 'Live Web App';
+      pmsStatus.textContent = 'PHP MVC Architecture';
       const statusWrap = document.querySelector('#card-pms .card-status');
       if (statusWrap) statusWrap.classList.add('online');
     }
 
-    // 6. Footer Links (Point directly to live web apps)
+    // 6. Footer Links
     const footerLinks = document.querySelectorAll('.footer-links a');
     if (footerLinks.length >= 4) {
       footerLinks[0].href = 'https://swapnil0607.github.io/portfolio-2026/';
       footerLinks[0].target = '_blank';
-      footerLinks[1].href = 'https://swapnil0607.github.io/hrms-portal/';
+      footerLinks[1].href = 'https://github.com/swapnil0607/hrms-portal';
       footerLinks[1].target = '_blank';
-      footerLinks[2].href = 'https://swapnil0607.github.io/clientele-system/';
+      footerLinks[2].href = 'https://github.com/swapnil0607/clientele-system';
       footerLinks[2].target = '_blank';
-      footerLinks[3].href = 'https://swapnil0607.github.io/pms-portal/';
+      footerLinks[3].href = 'https://github.com/swapnil0607/pms-portal';
       footerLinks[3].target = '_blank';
     }
   }
