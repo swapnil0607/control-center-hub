@@ -544,6 +544,7 @@
       <div class="modal-body" id="modal-body">
         <div class="modal-tabs">
           <button class="tab-btn active" onclick="switchTab('tab-general')">Overview</button>
+          <button class="tab-btn" onclick="switchTab('tab-phone')">Mobile Wi-Fi Guide</button>
           <button class="tab-btn" onclick="switchTab('tab-hrms')">HRMS Schema</button>
           <button class="tab-btn" onclick="switchTab('tab-clientele')">Clientele Schema</button>
           <button class="tab-btn" onclick="switchTab('tab-pms')">PMS Schema</button>
@@ -564,6 +565,18 @@
             <li><strong>Zero Sensitive Data:</strong> Real employee payroll, personal phone numbers, and client contracts safely archived in <code>.safety_backup/</code>.</li>
             <li><strong>Smart DB Connectors:</strong> Automatically detect <code>localhost</code> (root with no password) with seamless fallback to remote server credentials.</li>
           </ul>
+        </div>
+
+        <div id="tab-phone" class="tab-pane">
+          <h4>How to Preview Live Dynamic Systems on Your Phone</h4>
+          <p>Because <strong>HRMS</strong>, <strong>Clientele</strong>, and <strong>PMS</strong> are full-stack applications with MySQL databases, they run on your local server.</p>
+          <p>To preview and test the real database workflows on your phone right now:</p>
+          <ul>
+            <li>Ensure your phone is connected to the <strong>same Wi-Fi network</strong> as your computer.</li>
+            <li>Open Safari or Chrome on your mobile phone and navigate to:</li>
+          </ul>
+          <pre><code>http://192.168.0.107/</code></pre>
+          <p>Every system (leave requests, employee balance deductions, brand directories, timesheets) will execute live with full database interaction on your mobile screen!</p>
         </div>
 
         <div id="tab-hrms" class="tab-pane">
